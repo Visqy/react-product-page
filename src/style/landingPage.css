@@ -1,0 +1,70 @@
+#root {
+    --primary-color: #efefef;
+    --secondary-color: #bc1823;
+    --black-color: #212529;
+}
+
+.vh-center {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.bg-nav {
+    background-color: transparent;
+}
+
+.bg_primary {
+    background-color: var(--primary-color);
+    margin: 0;
+}
+
+.bg_secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg_black {
+    background-color: var(--black-color);
+}
+
+.nav-bar {
+    height: 70px;
+}
+
+.intro {
+    padding-top: 70px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 95%;
+    margin: 0;
+}
+
+.text_white {
+    color: white;
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.w-10 {
+    width: 50px !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .text-fluid {
+        text-align: center;
+        justify-content: center;
+    }
+    .bg-nav {
+        background-color: var(--primary-color);
+    }
+}
